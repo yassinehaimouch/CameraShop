@@ -5,7 +5,7 @@ import { DUMMY_DATA } from '../../DUMMY_DATA';
 
 const Products = () => {
   return (
-    <div className='flex justify-center flex-wrap gap-20 mb-52'>
+    <div className='flex justify-center gap-20 flex-wrap mb-52 xl:gap-11'>
       {DUMMY_DATA.map(item => {return <Product key={item.id} item={item}/>})}
     </div>
   )
